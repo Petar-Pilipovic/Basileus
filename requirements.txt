@@ -1,0 +1,7 @@
+git+git://github.com/Rapptz/discord.py@master
+gspread
+google-api-python-client
+google-auth
+pytz
+fuzzywuzzy
+python-Levenshtein
