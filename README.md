@@ -1,5 +1,5 @@
 # Overview of BASILEUS
-A feature-rich Discord bot made for database management of Discord role-play servers (primarily, but not limited to, the SCP Fandom). At time of writing implements a task assignment systems, database updating and querying, fuzzy searching, NLP-based web scraping, and a permission system.
+A feature-rich Discord bot made for database management of Discord role-play servers (primarily, but not limited to, the SCP Fandom). At time of writing implements a task assignment systems, database updating and querying, fuzzy searching, NLP-based web scraping, and a permission system. Designed with OOP in mind.
 
 ![Example usage](https://user-images.githubusercontent.com/46630931/185795129-ed91e992-a74a-4f91-abae-105b9613d3ea.png)
 
@@ -97,7 +97,7 @@ Every time a submission is detected in one of the submission channels, the bot m
 
 **Q: Why is the chosen database Google Sheets instead of something like MySQL?**
 
-There are two reason
+There are two reason.
 Firstly, much of the initial data prior to the bot being developed was already stored in Google Sheets. Secondly and more importantly, one of the limitations of Heroku, where the bot was freely hosted, was that the hosted files cannot be edited. In other words, it wasn't an option to host a traditional database and I instead had to get creative.
 
 **Q: Aren't query responses slow due to using Google Sheets?**
